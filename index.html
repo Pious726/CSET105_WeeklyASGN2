@@ -7,17 +7,17 @@
     <title>Tyler McDowell: Rock, Paper, Scissors</title>
 </head>
 <body>
-    <h1>Rock, Paper, Scissors!</h1>
+    <h1>Rock.. Paper.. Scissors!</h1>
     <div class="flex-container">
         <div class="buttons">
-            <button onclick="rockSelection(this)">Rock</button>
-            <button onclick="paperSelection(this)">Paper</button>
-            <button onclick="scissorsSelection(this)">Scissors</button>
+            <button class="choice" id="rock" onclick="rockSelection(this)">Rock</button>
+            <button class="choice" id="paper" onclick="paperSelection(this)">Paper</button>
+            <button class="choice" id="scissors" onclick="scissorsSelection(this)">Scissors</button>
         </div>
         <div id="score">
             <h2>Score: </h2>
-            <p>You: </p>
-            <p>Computer: </p>
+            <p id="user_score">You: </p>
+            <p id="computer_score">Computer: </p>
         </div>
     </div>
 
