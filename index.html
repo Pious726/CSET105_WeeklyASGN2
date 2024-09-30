@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tyler McDowell: Rock, Paper, Scissors</title>
+</head>
+<body>
+    <h1>Rock.. Paper.. Scissors!</h1>
+    <div class="flex-container">
+        <div id="buttons" class="flex-item flex-item-1">
+            <button class="choice" id="rock" onclick="rockSelection(this)">Rock</button>
+            <button class="choice" id="paper" onclick="paperSelection(this)">Paper</button>
+            <button class="choice" id="scissors" onclick="scissorsSelection(this)">Scissors</button>
+        </div>
+        <div class="aside">
+            <div id="choices" class="flex-item flex-item-2">
+                <h2>Your choice: <h2 id="user_choice"></h2></h2>
+                <h2>Computer's choice: <h2 id="computer_choice"></h2></h2>
+                <h2>Result: <h2 id="result"></h2></h2>
+            </div>
+            <div id="score" class="flex-item flex-item-3">
+                <h2>Score: </h2>
+                <p>You: <p id="user_score"></p></p>
+                <p>Computer: <p id="computer_score"></p></p>
+                <p>Ties: <p id="ties"></p></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
