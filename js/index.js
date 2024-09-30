@@ -1,4 +1,3 @@
-const prompt = require('prompt-sync')();
 let userChoice = "";
 let computerChoice = "";
 
