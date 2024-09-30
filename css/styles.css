@@ -4,3 +4,10 @@
     border: 0;
     box-sizing: border-box;
 }
+
+button {
+    height: 35px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px 20px;
+}
